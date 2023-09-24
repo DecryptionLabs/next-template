@@ -1,28 +1,30 @@
-import { Metadata } from "next"
-import Image from "next/image"
-
+import { Metadata } from "next";
+import Image from "next/image";
 import { Button } from "../components/ui/button";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
+  Card, 
+  CardContent, 
+  CardDescription, 
+  CardHeader, 
+  CardTitle 
 
 
-import { CalendarDateRangePicker } from "@/app/examples/dashboard/components/date-range-picker"
-import { MainNav } from "@/app/examples/dashboard/components/main-nav"
-import { Overview } from "@/app/examples/dashboard/components/overview"
-import { RecentSales } from "@/app/examples/dashboard/components/recent-sales"
-import { Search } from "@/app/examples/dashboard/components/search"
-import TeamSwitcher from "@/app/examples/dashboard/components/team-switcher"
-import { UserNav } from "@/app/examples/dashboard/components/user-nav"
+
+
+
+import { CalendarDateRangePicker } from "@/app/examples/dashboard/components/date-range-picker";
+import { MainNav } from "@/app/examples/dashboard/components/main-nav";
+import { Overview } from "@/app/examples/dashboard/components/overview";
+import { RecentSales } from "@/app/examples/dashboard/components/recent-sales";
+import { Search } from "@/app/examples/dashboard/components/search";
+import TeamSwitcher from "@/app/examples/dashboard/components/team-switcher";
+import { UserNav } from "@/app/examples/dashboard/components/user-nav";
+// import Tabs, TabsContent, TabsList, TabsTrigger de unde sunt definite
 
 export const metadata: Metadata = {
   title: "Dashboard",
-  description: "Example dashboard app built using the components.",
-}
+  description: "Example dashboard app built using the components."
+};
 
 export default function DashboardPage() {
   return (
