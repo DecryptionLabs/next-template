@@ -10,10 +10,6 @@ import {
   CardHeader,
   CardTitle,
 
-  Tabs
-  TabsContent,
-  TabsList,
-  TabsTrigger,
 
 import { CalendarDateRangePicker } from "@/app/examples/dashboard/components/date-range-picker"
 import { MainNav } from "@/app/examples/dashboard/components/main-nav"
