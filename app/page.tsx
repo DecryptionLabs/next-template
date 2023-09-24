@@ -14,7 +14,7 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/registry/new-york/ui/tabs"
+  import { Button } from "../components/ui/button";
 import { CalendarDateRangePicker } from "@/app/examples/dashboard/components/date-range-picker"
 import { MainNav } from "@/app/examples/dashboard/components/main-nav"
 import { Overview } from "@/app/examples/dashboard/components/overview"
