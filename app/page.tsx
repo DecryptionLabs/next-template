@@ -1,15 +1,15 @@
 import { Metadata } from "next"
 import Image from "next/image"
 
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "../components/ui/button";
+
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/new-york/ui/card"
-import {
+
   Tabs,
   TabsContent,
   TabsList,
